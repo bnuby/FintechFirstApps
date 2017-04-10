@@ -14,6 +14,10 @@
 		37269B2C1E89210A005264BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37269B2A1E89210A005264BA /* LaunchScreen.storyboard */; };
 		37269B371E89210A005264BA /* new__2017_03_27_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37269B361E89210A005264BA /* new__2017_03_27_Tests.swift */; };
 		37269B421E89210A005264BA /* new__2017_03_27_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37269B411E89210A005264BA /* new__2017_03_27_UITests.swift */; };
+		37269B521E893D3A005264BA /* RetaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37269B511E893D3A005264BA /* RetaurantTableViewCell.swift */; };
+		574ED5DE1E9B963000D7300E /* Restaurantid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ED5DD1E9B963000D7300E /* Restaurantid.swift */; };
+		574ED5E01E9BAF6900D7300E /* Detail View TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ED5DF1E9BAF6900D7300E /* Detail View TableViewCell.swift */; };
+		574ED5E21E9BB01F00D7300E /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ED5E11E9BB01F00D7300E /* DetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		37269B3D1E89210A005264BA /* new (2017-03-27)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "new (2017-03-27)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37269B411E89210A005264BA /* new__2017_03_27_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new__2017_03_27_UITests.swift; sourceTree = "<group>"; };
 		37269B431E89210A005264BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37269B511E893D3A005264BA /* RetaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetaurantTableViewCell.swift; sourceTree = "<group>"; };
+		574ED5DD1E9B963000D7300E /* Restaurantid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurantid.swift; sourceTree = "<group>"; };
+		574ED5DF1E9BAF6900D7300E /* Detail View TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Detail View TableViewCell.swift"; sourceTree = "<group>"; };
+		574ED5E11E9BB01F00D7300E /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				37269B211E89210A005264BA /* AppDelegate.swift */,
 				37269B231E89210A005264BA /* ViewController.swift */,
+				574ED5DF1E9BAF6900D7300E /* Detail View TableViewCell.swift */,
+				574ED5E11E9BB01F00D7300E /* DetailsTableViewController.swift */,
+				37269B511E893D3A005264BA /* RetaurantTableViewCell.swift */,
 				37269B251E89210A005264BA /* Main.storyboard */,
 				37269B281E89210A005264BA /* Assets.xcassets */,
 				37269B2A1E89210A005264BA /* LaunchScreen.storyboard */,
 				37269B2D1E89210A005264BA /* Info.plist */,
+				574ED5DD1E9B963000D7300E /* Restaurantid.swift */,
 			);
 			path = "new (2017-03-27)";
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574ED5E01E9BAF6900D7300E /* Detail View TableViewCell.swift in Sources */,
 				37269B241E89210A005264BA /* ViewController.swift in Sources */,
+				574ED5DE1E9B963000D7300E /* Restaurantid.swift in Sources */,
+				37269B521E893D3A005264BA /* RetaurantTableViewCell.swift in Sources */,
+				574ED5E21E9BB01F00D7300E /* DetailsTableViewController.swift in Sources */,
 				37269B221E89210A005264BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +521,7 @@
 				37269B481E89210A005264BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37269B491E89210A005264BA /* Build configuration list for PBXNativeTarget "new (2017-03-27)Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				37269B4B1E89210A005264BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37269B4C1E89210A005264BA /* Build configuration list for PBXNativeTarget "new (2017-03-27)UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				37269B4E1E89210A005264BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
